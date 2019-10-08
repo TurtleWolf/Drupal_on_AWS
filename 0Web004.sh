@@ -11,11 +11,11 @@ USERNAME=jane_doe
 # IP Address for accessing SSH
 IP_ADDRESS=0.0.000.000
 
-# cidr block for accessing SSH via Virtual Private Cloud
-aws_VPC=10.0.0.0/24
-
 # Port for accessing SSH
 SSH_PORT=2222
+
+# cidr block for accessing SSH via Virtual Private Cloud
+aws_VPC=10.0.0.0/24
 
 # Port for DEVelopment; ReAct :3000
 DEV_PORT=3000
